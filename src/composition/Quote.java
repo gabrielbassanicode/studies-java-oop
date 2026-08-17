@@ -1,4 +1,4 @@
-package simpleComposition;
+package composition;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

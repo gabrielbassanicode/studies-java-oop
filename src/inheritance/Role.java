@@ -1,4 +1,4 @@
-package simpleInheritance;
+package inheritance;
 
 public enum Role {
 

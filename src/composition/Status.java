@@ -1,4 +1,4 @@
-package simpleComposition;
+package composition;
 
 public enum Status {
 
