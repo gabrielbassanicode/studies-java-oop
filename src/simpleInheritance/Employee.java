@@ -51,7 +51,6 @@ public class Employee {
 
     public Double totalSalary() {
         return salary;
-
     }
 
     public String toString() {

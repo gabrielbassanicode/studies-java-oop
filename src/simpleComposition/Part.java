@@ -1,4 +1,4 @@
-package compostion;
+package simpleComposition;
 
 public class Part {
 
