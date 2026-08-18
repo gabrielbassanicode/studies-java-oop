@@ -1,4 +1,4 @@
-package interfacePaymentSystemConcept;
+package interfaces;
 import java.time.LocalDate;
 
 public class ContractService {

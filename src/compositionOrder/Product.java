@@ -1,4 +1,4 @@
-package compositionOrderConcept;
+package compositionOrder;
 
 public class Product {
 

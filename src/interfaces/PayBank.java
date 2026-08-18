@@ -1,4 +1,4 @@
-package interfacePaymentSystemConcept;
+package interfaces;
 
 // Example system
 
