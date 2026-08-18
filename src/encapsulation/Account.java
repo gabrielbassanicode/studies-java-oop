@@ -1,4 +1,4 @@
-package basicConcepts;
+package encapsulation;
 
 public class Account {
 

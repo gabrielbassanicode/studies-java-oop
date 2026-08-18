@@ -1,4 +1,4 @@
-package basicConcepts;
+package encapsulation;
 import java.util.Locale;
 import java.util.Scanner;
 
