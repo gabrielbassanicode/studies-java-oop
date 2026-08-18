@@ -18,13 +18,13 @@ public class Main {
         System.out.println("Employee register:");
         System.out.print("How many employees? ");
         int amount = sc.nextInt();
+        sc.nextLine();
         List<Employee> employees = new ArrayList<>();
 
 
         for (int i = 0; i < amount; i++) {
-            System.out.println(i + 1 + "# employee");
+            System.out.printf("#%d employee:\n", i + 1);
             System.out.print("Name: ");
-            sc.nextLine();
             String name = sc.nextLine();
             System.out.print("Birthday(dd/MM/yyyy): ");
             LocalDate birth = LocalDate.parse(sc.nextLine(), fmt);
@@ -55,7 +55,6 @@ public class Main {
             System.out.println();
 
         }
-
         sc.close();;
     }
 }
