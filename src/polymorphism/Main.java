@@ -18,7 +18,7 @@ public class Main {
 
         for (int i = 1; i <= amount; i++) {
             System.out.printf("Tax payer #%d data: \n", i);
-            System.out.print("Individual or company?(I/C) ");
+            System.out.print("Individual or company? (I/C) ");
             char option = sc.next().toUpperCase().charAt(0);
             sc.nextLine();
             System.out.print("Name: ");

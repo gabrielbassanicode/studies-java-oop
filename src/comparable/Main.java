@@ -12,7 +12,7 @@ public class Main {
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("MM/yyyy");
         DateTimeFormatter fmt2 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
-        // Hardcode
+        // Hardcoded
 
         MonthlyExpenses monthlyExpenses = new MonthlyExpenses(YearMonth.parse("08/2026", fmt));
 
@@ -22,7 +22,7 @@ public class Main {
         Expense expense2 = new Expense(LocalDate.parse("01/08/2026", fmt2), 600.00, "Family trip");
         monthlyExpenses.getExpenses().add(expense2);
 
-        Expense expense3 = new Expense(LocalDate.parse("26/08/2026", fmt2), 500.00, "New table for room");
+        Expense expense3 = new Expense(LocalDate.parse("26/08/2026", fmt2), 500.00, "New table for the room");
         monthlyExpenses.getExpenses().add(expense3);
 
         Expense expense4 = new Expense(LocalDate.parse("12/08/2026", fmt2), 35.00, "Streaming services");

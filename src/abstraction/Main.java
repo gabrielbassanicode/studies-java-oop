@@ -39,7 +39,7 @@ public class Main {
             }
         }
         System.out.println();
-        System.out.println("SHAPES AREA:");
+        System.out.println("SHAPES AREAS:");
 
         for (Shape s: shapeList) {
             System.out.println("Area: " + String.format("%.2f", s.area()) + " Color: " + s.getColor());

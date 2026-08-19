@@ -101,7 +101,7 @@ public class Quote {
         sb.append("Parts: " + "\n");
 
         for (Part p: parts) {
-            sb.append(p.getName()).append(", ").append("price: ").append(String.format("%.2f", p.getPrice())).append(" ").append("Sub Total: ")
+            sb.append(p.getName()).append(", ").append("Price: ").append(String.format("%.2f", p.getPrice())).append(" ").append("Subtotal: ")
                     .append(String.format("%.2f", p.subTotal())).append(" | ").append(p.getQuantity()).append( "\n");
 
         }

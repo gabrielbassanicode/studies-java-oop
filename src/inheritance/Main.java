@@ -26,23 +26,23 @@ public class Main {
             System.out.printf("#%d employee:\n", i + 1);
             System.out.print("Name: ");
             String name = sc.nextLine();
-            System.out.print("Birthday(dd/MM/yyyy): ");
+            System.out.print("Birthday (dd/MM/yyyy): ");
             LocalDate birth = LocalDate.parse(sc.nextLine(), fmt);
             System.out.print("Salary: ");
             double salary = sc.nextDouble();
             sc.nextLine();
-            System.out.print("Role in job (DEVELOPER, MANAGER): ");
+            System.out.print("Role (DEVELOPER, MANAGER): ");
             Role role = Role.valueOf(sc.nextLine().toUpperCase());
 
 
             if (role == Role.DEVELOPER) {
-                System.out.print("How many projects he finished? ");
+                System.out.print("How many projects did he finished? ");
                 int completedProjects = sc.nextInt();
                 Employee employee = new Developer(name, salary, birth, completedProjects, role);
                 employees.add(employee);
 
             }else {
-                System.out.print("What for bonus? ");
+                System.out.print("What is for bonus? ");
                 double bonus = sc.nextDouble();
                 Employee employee = new Manager(name, salary, birth, bonus, role);
                 employees.add(employee);

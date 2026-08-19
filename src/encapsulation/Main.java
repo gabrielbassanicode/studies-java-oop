@@ -12,14 +12,14 @@ public class Main {
         Account account;
 
 
-        System.out.print("Enter account number: ");
+        System.out.print("Enter the account number: ");
         int accountNumber = sc.nextInt();
         sc.nextLine();
 
-        System.out.print("Enter account holder: ");
+        System.out.print("Enter the account holder: ");
         String name = sc.nextLine();
 
-        System.out.print("Is there na initial deposit? (y/n): ");
+        System.out.print("Is there an initial deposit? (y/n): ");
         String choice = sc.nextLine();
 
         if (choice.equals("y")) {
@@ -41,12 +41,12 @@ public class Main {
 
         System.out.println("Updated account data: " + account);
 
-        System.out.print("Enter a value to withdrawal($5.00 Tax): ");
+        System.out.print("Enter a value to withdraw ($5.00 Tax): ");
         value = sc.nextDouble();
 
         account.withdraw(value);
 
-        System.out.println("Update account data: " + account);
+        System.out.println("Updated account data: " + account);
 
         sc.close();
     }

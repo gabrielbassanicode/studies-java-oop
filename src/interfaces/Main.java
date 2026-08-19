@@ -17,7 +17,7 @@ public class Main {
         System.out.print("Number: ");
         int number = sc.nextInt();
         sc.nextLine();
-        System.out.print("Date(DD/MM/YYYY): ");
+        System.out.print("Date (DD/MM/YYYY): ");
         LocalDate contractDate = LocalDate.parse(sc.nextLine(), fmt);
         System.out.print("Contract value: ");
         double contractValue = sc.nextDouble();
